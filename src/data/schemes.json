@@ -1,0 +1,504 @@
+[
+  {
+    "id": "kmut",
+    "name_en": "Kalaignar Magalir Urimai Thittam (KMUT)",
+    "name_ta": "கலைஞர் மகளிர் உரிமைத் திட்டம்",
+    "category": "financial",
+    "level": "state",
+    "benefit_en": "₹1,000 monthly basic income directly deposited into the bank accounts of women heads of households.",
+    "benefit_ta": "குடும்பத் தலைவிகளுக்கு மாதம் ₹1,000 உரிமைத் தொகை நேரடியாக வங்கிக் கணக்கில் வரவு வைக்கப்படுகிறது.",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": 100,
+      "gender": "female",
+      "occupations": ["homemaker", "worker", "farmer", "elderly", "other"],
+      "max_income": 250000,
+      "requires_land": false,
+      "max_land_acres": 5,
+      "notes_en": "Family annual income below ₹2.5 Lakhs. Annual electricity consumption below 3,600 units. Land holding less than 5 acres wetland or 10 acres dryland. (TODO: verify from official site)",
+      "notes_ta": "குடும்ப ஆண்டு வருமானம் ₹2.5 லட்சத்திற்குள் இருக்க வேண்டும். மின் பயன்பாடு ஆண்டுக்கு 3600 யூனிட்டுகளுக்குள் இருக்க வேண்டும். 5 ஏக்கருக்கு குறைவான நன்செய் நிலம். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "ration_card", "name_en": "Smart Family Ration Card", "name_ta": "குடும்ப அட்டை (ஸ்மார்ட் கார்டு)", "required": true },
+      { "id": "bank_passbook", "name_en": "Bank Passbook with Aadhaar linked", "name_ta": "ஆதார் இணைக்கப்பட்ட வங்கி கணக்கு புத்தகம்", "required": true },
+      { "id": "eb_bill", "name_en": "Electricity Consumer Number / Bill", "name_ta": "மின் இணைப்பு எண் / கட்டண ரசீது", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Application Form at Ration Shop",
+        "title_ta": "நியாயவிலைக் கடையில் விண்ணப்பப் படிவம் பெறுதல்",
+        "desc_en": "Collect token and application form at your local PDS ration shop camp.",
+        "desc_ta": "உங்கள் பகுதி நியாயவிலைக் கடை சிறப்பு முகாமில் டோக்கன் மற்றும் விண்ணப்பப் படிவத்தைப் பெறவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Registration Camp Submission",
+        "title_ta": "விண்ணப்பப் பதிவு முகாமில் சமர்ப்பித்தல்",
+        "desc_en": "Attend the designated camp with your Aadhaar, Ration Card, EB consumer number, and Bank passbook for biometric verification.",
+        "desc_ta": "குறிப்பிட்ட நாளில் ஆதார், குடும்ப அட்டை, மின் அட்டை, வங்கி புத்தகத்துடன் முகாமிற்குச் சென்று விரல்ரேகை பதிவு செய்யவும்."
+      },
+      {
+        "step": 3,
+        "title_en": "Field Verification & SMS Sanction",
+        "title_ta": "கள ஆய்வு மற்றும் குறுஞ்செய்தி ஒப்புதல்",
+        "desc_en": "Revenue officials verify details. Approved beneficiaries receive SMS and monthly ₹1,000 credit on the 15th.",
+        "desc_ta": "வருவாய்த்துறை அலுவலர் சரிபார்ப்பிற்குப் பின், ஒப்புதல் குறுஞ்செய்தி மற்றும் மாதந்தோறும் 15-ம் தேதி வங்கி வரவு வரும்."
+      }
+    ],
+    "official_url": "https://kmut.tn.gov.in/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "pudhumai_penn",
+    "name_en": "Pudhumai Penn Scheme (Higher Education Assistance)",
+    "name_ta": "புதுமைப் பெண் திட்டம் (மூவலூர் ராமாமிர்தம் அம்மையார் உயர்கல்வி உறுதித் திட்டம்)",
+    "category": "education",
+    "level": "state",
+    "benefit_en": "₹1,000 monthly financial grant throughout higher education (degree, diploma, ITI) until course completion.",
+    "benefit_ta": "பட்டப்படிப்பு, பட்டயப்படிப்பு, ஐடிஐ பயிலும் மாணவிகளுக்கு படிப்பு முடியும் வரை மாதம் ₹1,000 கல்வி உதவித்தொகை.",
+    "eligibility": {
+      "min_age": 16,
+      "max_age": 28,
+      "gender": "female",
+      "occupations": ["student"],
+      "is_student": true,
+      "student_level": "college",
+      "notes_en": "Must have studied Class 6 to 12 in Tamil Nadu Government Schools. Enrolled in higher education in TN. (TODO: verify from official site)",
+      "notes_ta": "6 முதல் 12-ஆம் வகுப்பு வரை தமிழக அரசுப் பள்ளிகளில் படித்திருக்க வேண்டும். கல்லூரியில் பயிலும் மாணவியாக இருக்க வேண்டும். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "school_tc", "name_en": "Govt School 6th-12th Bonafide / Transfer Certificate", "name_ta": "6-12 அரசுப் பள்ளி படிப்பு சான்றிதழ் / டிசி", "required": true },
+      { "id": "college_id", "name_en": "College Bonafide Certificate / Admission Slip", "name_ta": "கல்லூரி சேர்க்கை அட்டை / சான்றிதழ்", "required": true },
+      { "id": "bank_passbook", "name_en": "Student's Bank Passbook (individual account)", "name_ta": "மாணவியின் தனிப்பட்ட வங்கி கணக்கு புத்தகம்", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "College Registration Portal",
+        "title_ta": "கல்லூரி வாயிலாக இணையதளப் பதிவு",
+        "desc_en": "Provide your details and government school certificates to your college nodal officer.",
+        "desc_ta": "உங்கள் கல்லூரி ஒருங்கிணைப்பு அலுவலரிடம் பள்ளி சான்றிதழ்கள் மற்றும் விவரங்களை வழங்கவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Principal Verification",
+        "title_ta": "முதல்வர் மற்றும் பள்ளி கல்வித்துறை சரிபார்ப்பு",
+        "desc_en": "College verifies enrollment and school education department verifies EMIS school records.",
+        "desc_ta": "கல்லூரி முதல்வர் மற்றும் பள்ளிக் கல்வித் துறை EMIS பதிவுகள் மூலம் சரிபார்க்கப்படுகிறது."
+      },
+      {
+        "step": 3,
+        "title_en": "Direct DBT Disbursement",
+        "title_ta": "நேரடி வங்கி கணக்கு வரவு",
+        "desc_en": "Monthly ₹1,000 transferred directly to student bank account every month.",
+        "desc_ta": "மாதந்தோறும் ₹1,000 நேரடியாக மாணவியின் வங்கிக் கணக்கில் வரவு வைக்கப்படும்."
+      }
+    ],
+    "official_url": "https://www.pudhumaipenn.tn.gov.in/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "cmchis",
+    "name_en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+    "name_ta": "முதலமைச்சரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம்",
+    "category": "health",
+    "level": "state",
+    "benefit_en": "Cashless medical treatment and hospitalization up to ₹5,00,000 per family per year in accredited hospitals.",
+    "benefit_ta": "அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் ஒரு குடும்பத்திற்கு ஆண்டிற்கு ₹5,00,000 வரை கட்டணமில்லா சிகிச்சை.",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 100,
+      "gender": "any",
+      "occupations": ["farmer", "student", "worker", "homemaker", "elderly", "other"],
+      "max_income": 120000,
+      "notes_en": "Family annual income below ₹1,20,000 (as certified by VAO/Revenue authorities). Must reside in Tamil Nadu. (TODO: verify from official site)",
+      "notes_ta": "குடும்ப ஆண்டு வருமானம் ₹1,20,000-க்குள் இருக்க வேண்டும். தமிழ்நாட்டில் வசிப்பவராக இருக்க வேண்டும். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "ration_card", "name_en": "Smart Family Ration Card", "name_ta": "குடும்ப அட்டை (ஸ்மார்ட் கார்டு)", "required": true },
+      { "id": "income_cert", "name_en": "Income Certificate from VAO / Tahsildar", "name_ta": "கிராம நிர்வாக அலுவலர் (VAO) வருமானச் சான்றிதழ்", "required": true },
+      { "id": "aadhaar", "name_en": "Aadhaar Card of all family members", "name_ta": "குடும்ப உறுப்பினர்கள் அனைவரின் ஆதார் அட்டை", "required": true },
+      { "id": "family_photo", "name_en": "Joint Family Photograph", "name_ta": "குடும்ப புகைப்படம்", "required": false }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Obtain VAO Income Certificate",
+        "title_ta": "வருமானச் சான்றிதழ் பெறுதல்",
+        "desc_en": "Get an annual income certificate under ₹1,20,000 from your Village Administrative Officer / e-Sevai.",
+        "desc_ta": "இ-சேவை மையம் மூலம் ₹1,20,000-க்கு குறைவான வருமானச் சான்றிதழ் பெறவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Enrolment at District Collectorate / Taluk Kiosk",
+        "title_ta": "மாவட்ட ஆட்சியர் / வட்டாட்சியர் அலுவலக மையத்தில் பதிவு",
+        "desc_en": "Visit CMCHIS enrolment kiosk at District Collectorate or Taluk Office with original documents and family members.",
+        "desc_ta": "அசல் ஆவணங்களுடன் மாவட்ட ஆட்சியர் அலுவலகம் அல்லது தாலுகா அலுவலக CMCHIS மையத்திற்குச் செல்லவும்."
+      },
+      {
+        "step": 3,
+        "title_en": "Smart Card Issuance",
+        "title_ta": "மருத்துவக் காப்பீட்டு அட்டை பெறுதல்",
+        "desc_en": "Biometric fingerprints and photo captured; instant smart health insurance card issued for cashless treatment.",
+        "desc_ta": "புகைப்படம் மற்றும் கைரேகை பதிவு செய்யப்பட்டு உடனடியாக காப்பீட்டு அட்டை வழங்கப்படும்."
+      }
+    ],
+    "official_url": "https://www.cmchistn.com/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "pm_kisan",
+    "name_en": "PM Kisan Samman Nidhi (Central & TN)",
+    "name_ta": "பிரதமர் கிசான் சம்மான் நிதி (PM-KISAN)",
+    "category": "agriculture",
+    "level": "central",
+    "benefit_en": "₹6,000 annual income support in 3 equal four-monthly installments of ₹2,000 for land-holding farmer families.",
+    "benefit_ta": "விவசாயக் குடும்பங்களுக்கு 4 மாதத்திற்கு ஒருமுறை ₹2,000 வீதம் ஆண்டிற்கு ₹6,000 நேரடி உதவித்தொகை.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "gender": "any",
+      "occupations": ["farmer"],
+      "requires_land": true,
+      "notes_en": "Must own cultivable agricultural land registered in their name. Institutional landholders and high-income tax payers excluded. (TODO: verify from official site)",
+      "notes_ta": "சொந்தமாக விவசாய சாகுபடி நிலம் கொண்ட விவசாயக் குடும்பங்கள். வருமான வரி செலுத்துபவர்கள் தவிர்த்து. (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "land_patta", "name_en": "Land Patta / Chitta copy", "name_ta": "நிலப் பட்டா / சிட்டா நகல்", "required": true },
+      { "id": "aadhaar", "name_en": "Aadhaar Card with mobile linkage", "name_ta": "மொபைல் எண் இணைக்கப்பட்ட ஆதார் அட்டை", "required": true },
+      { "id": "bank_passbook", "name_en": "Aadhaar Seeded Bank Account Details", "name_ta": "ஆதார் மற்றும் NPCI இணைக்கப்பட்ட வங்கி கணக்கு", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Online / CSC Centre Application",
+        "title_ta": "இ-சேவை மையம் அல்லது ஆன்லைன் விண்ணப்பம்",
+        "desc_en": "Apply through pmkisan.gov.in portal 'Farmers Corner' or visit nearest e-Sevai / CSC centre.",
+        "desc_ta": "அருகிலுள்ள இ-சேவை மையம் மூலமாகவோ அல்லது pmkisan.gov.in தளத்திலோ விண்ணப்பிக்கவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Agricultural Officer & VAO Verification",
+        "title_ta": "வேளாண்மை அலுவலர் மற்றும் VAO நில சரிபார்ப்பு",
+        "desc_en": "Village Administrative Officer and Agriculture Department officials verify land records in TN Tamil Nilam portal.",
+        "desc_ta": "தமிழ் நிலம் இணையம் மூலம் நில உரிமை விவரங்களை அதிகாரிகள் சரிபார்ப்பார்கள்."
+      },
+      {
+        "step": 3,
+        "title_en": "Installment Credit via DBT",
+        "title_ta": "வங்கிக் கணக்கில் தவணைத் தொகை வரவு",
+        "desc_en": "Upon central approval, ₹2,000 transferred every 4 months directly into the Aadhaar-linked bank account.",
+        "desc_ta": "ஒப்புதலுக்குப் பின் 4 மாதங்களுக்கு ஒருமுறை ₹2,000 வங்கி கணக்கில் வந்து சேரும்."
+      }
+    ],
+    "official_url": "https://pmkisan.gov.in/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "oap_tn",
+    "name_en": "Tamil Nadu Old Age Pension Scheme (OAP)",
+    "name_ta": "முதியோர் ஓய்வூதியத் திட்டம் (OAP தமிழ்நாடு)",
+    "category": "pension",
+    "level": "state",
+    "benefit_en": "₹1,000 monthly social security pension plus free rice and free saree/dhoti on Pongal festival.",
+    "benefit_ta": "மாதந்தோறும் ₹1,000 ஓய்வூதியம், இலவச அரிசி மற்றும் பொங்கல் பண்டிகையின் போது இலவச வேட்டி/சேலை.",
+    "eligibility": {
+      "min_age": 60,
+      "max_age": 120,
+      "gender": "any",
+      "occupations": ["elderly", "unemployed", "homemaker", "other"],
+      "max_income": 100000,
+      "notes_en": "Destitute elderly aged 60 years or above with no substantial family financial support or assets. (TODO: verify from official site)",
+      "notes_ta": "60 வயது அல்லது அதற்கு மேற்பட்ட ஆதரவற்ற முதியவர்கள். குடும்பத்தின் சொத்து மதிப்பு மற்றும் வருமானம் குறைவாக இருக்க வேண்டும். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "aadhaar", "name_en": "Aadhaar Card / Voter ID (Age proof)", "name_ta": "ஆதார் அட்டை / வாக்காளர் அட்டை (வயது சான்று)", "required": true },
+      { "id": "ration_card", "name_en": "Ration Card", "name_ta": "குடும்ப அட்டை", "required": true },
+      { "id": "destitute_cert", "name_en": "Destitute / Income Certificate from VAO", "name_ta": "VAO ஆதரவற்றோர் / வருமானச் சான்றிதழ்", "required": true },
+      { "id": "bank_passbook", "name_en": "Bank / Post Office Savings Account Passbook", "name_ta": "வங்கி அல்லது அஞ்சலக சேமிப்பு கணக்கு புத்தகம்", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Apply at e-Sevai / Taluk Office",
+        "title_ta": "இ-சேவை மையம் அல்லது தாலுகா அலுவலகத்தில் விண்ணப்பித்தல்",
+        "desc_en": "Submit your social security pension application form at your local e-Sevai centre.",
+        "desc_ta": "உங்கள் பகுதி இ-சேவை மையம் அல்லது வட்டாட்சியர் அலுவலக சமூகப் பாதுகாப்பு திட்ட பிரிவில் விண்ணப்பிக்கவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Revenue Field Verification",
+        "title_ta": "வருவாய் ஆய்வாளர் நேரடி விசாரணை",
+        "desc_en": "Village Administrative Officer (VAO) and Revenue Inspector (RI) conduct physical home enquiry.",
+        "desc_ta": "கிராம நிர்வாக அலுவலர் (VAO) மற்றும் வருவாய் ஆய்வாளர் (RI) நேரடியாக வந்து விசாரணை மேற்கொள்வர்."
+      },
+      {
+        "step": 3,
+        "title_en": "Tahsildar Order & Pension Payment",
+        "title_ta": "வட்டாட்சியர் ஆணை மற்றும் மாதாந்திர ஓய்வூதியம்",
+        "desc_en": "Tahsildar issues pension sanction order. Monthly pension sent directly to bank/post office account.",
+        "desc_ta": "வட்டாட்சியர் அனுமதி ஆணை பிறப்பித்தவுடன் மாதாந்திர ஓய்வூதியம் வங்கி கணக்கில் வரவு வைக்கப்படும்."
+      }
+    ],
+    "official_url": "https://www.tn.gov.in/scheme/data_view/6851",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "tn_construction_welfare",
+    "name_en": "TN Construction Workers Welfare Board Assistance",
+    "name_ta": "தமிழ்நாடு கட்டுமானத் தொழிலாளர்கள் நல வாரிய உதவிகள்",
+    "category": "social_welfare",
+    "level": "state",
+    "benefit_en": "Accident relief up to ₹5,00,000, children's education grant (₹1,000-₹8,000/yr), marriage aid ₹20,000, and ₹1,000 monthly pension after age 60.",
+    "benefit_ta": "விபத்து நிவாரணம் ₹5,00,000 வரை, குழந்தைகள் கல்வி உதவி ₹1,000-₹8,000, திருமண உதவி ₹20,000 மற்றும் 60 வயதிற்கு பின் மாதம் ₹1,000 ஓய்வூதியம்.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 60,
+      "gender": "any",
+      "occupations": ["worker"],
+      "notes_en": "Manual worker engaged in construction, masonry, painting, plumbing, electrical work, or allied building trade in Tamil Nadu. (TODO: verify from official site)",
+      "notes_ta": "கட்டுமானம், கொத்து வேலை, பெயிண்டிங், பிளம்பிங், எலக்ட்ரிக்கல் போன்ற பணிகளில் ஈடுபடும் தொழிலாளர்கள். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "work_cert", "name_en": "Employment Certificate from Registered Contractor/Engineer/VAO", "name_ta": "கட்டுமான ஒப்பந்ததாரர் அல்லது VAO தொழில் சான்றிதழ்", "required": true },
+      { "id": "ration_card", "name_en": "Ration Card", "name_ta": "குடும்ப அட்டை", "required": true },
+      { "id": "bank_passbook", "name_en": "Bank Account Passbook", "name_ta": "வங்கி கணக்கு புத்தகம்", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Member Registration on TNUWWB Portal",
+        "title_ta": "வாரிய இணையதளத்தில் உறுப்பினர் பதிவு",
+        "desc_en": "Register online at tnuwwb.tn.gov.in or via nearest e-Sevai / Trade Union.",
+        "desc_ta": "tnuwwb.tn.gov.in போர்ட்டலில் அல்லது இ-சேவை மையத்தில் உறுப்பினராகப் பதிவு செய்யவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Labour Officer Verification & Smart ID Card",
+        "title_ta": "தொழிலாளர் நல அலுவலர் ஆய்வு & ஸ்மார்ட் அடையாள அட்டை",
+        "desc_en": "Labour officer verifies employment proof and issues free welfare board ID card.",
+        "desc_ta": "தொழிலாளர் நலத்துறை அலுவலர் சான்றிதழ்களைச் சரிபார்த்து நலவாரிய அடையாள அட்டை வழங்குவார்."
+      },
+      {
+        "step": 3,
+        "title_en": "Apply for Benefits Online",
+        "title_ta": "நலத்திட்ட உதவிகளுக்கு விண்ணப்பித்தல்",
+        "desc_en": "Submit online claim for education, marriage, maternity or pension assistance with card number.",
+        "desc_ta": "அடையாள அட்டை எண்ணைக் கொண்டு கல்வி, திருமணம், ஓய்வூதிய உதவிகளுக்கு எளிதாக விண்ணப்பிக்கலாம்."
+      }
+    ],
+    "official_url": "https://tnuwwb.tn.gov.in/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "differently_abled_maintenance",
+    "name_en": "Tamil Nadu Differently Abled Maintenance Allowance",
+    "name_ta": "மாற்றுத்திறனாளிகள் மாதாந்திர பராமரிப்பு உதவித்தொகை",
+    "category": "social_welfare",
+    "level": "state",
+    "benefit_en": "₹2,000 monthly maintenance allowance directly credited to bank account for persons with severe disabilities.",
+    "benefit_ta": "கடுமையான மாற்றுத்திறனாளிகளுக்கு மாதம் ₹2,000 பராமரிப்பு உதவித்தொகை நேரடியாக வங்கிக் கணக்கில் வரவு.",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 100,
+      "gender": "any",
+      "occupations": ["farmer", "student", "worker", "homemaker", "elderly", "other"],
+      "disability_required": true,
+      "notes_en": "Persons with 40% or more disability, intellectual disability, muscular dystrophy, or Parkinson's as certified by Medical Board. (TODO: verify from official site)",
+      "notes_ta": "மருத்துவக் குழுவால் சான்றளிக்கப்பட்ட 40% அல்லது அதற்கு மேற்பட்ட மாற்றுத்திறன் உடையவர்கள். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "udid_card", "name_en": "National Disability Identity Card (UDID) / Medical Board Certificate", "name_ta": "தேசிய மாற்றுத்திறனாளி அடையாள அட்டை (UDID) / மருத்துவ சான்றிதழ்", "required": true },
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "ration_card", "name_en": "Ration Card", "name_ta": "குடும்ப அட்டை", "required": true },
+      { "id": "bank_passbook", "name_en": "Bank Account Passbook (Joint account with guardian allowed)", "name_ta": "வங்கி கணக்கு புத்தகம் (பாதுகாவலருடன் இணைந்த கணக்கு)", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Apply at District Differently Abled Welfare Office",
+        "title_ta": "மாவட்ட மாற்றுத்திறனாளிகள் நல அலுவலகத்தில் விண்ணப்பித்தல்",
+        "desc_en": "Visit District Collectorate DDAWO office or submit online via e-Sevai.",
+        "desc_ta": "மாவட்ட ஆட்சியர் வளாகத்திலுள்ள மாவட்ட மாற்றுத்திறனாளிகள் நல அலுவலகத்தில் அல்லது இ-சேவை மூலம் விண்ணப்பிக்கவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Medical Board Assessment",
+        "title_ta": "மருத்துவக் குழுவின் பரிசோதனை & சான்றளிப்பு",
+        "desc_en": "Government District Hospital Medical Board assesses disability percentage if UDID not yet issued.",
+        "desc_ta": "அரசு தலைமை மருத்துவமனை மருத்துவக் குழு மாற்றுத்திறன் அளவை பரிசோதித்து சான்றளிக்கும்."
+      },
+      {
+        "step": 3,
+        "title_en": "Sanction & Monthly DBT Credit",
+        "title_ta": "அனுமதி ஆணை & மாதாந்திர வரவு",
+        "desc_en": "District Welfare Officer issues sanction; ₹2,000 credited monthly directly to bank account.",
+        "desc_ta": "மாவட்ட அலுவலர் ஆணை பிறப்பித்த பின், மாதம் ₹2,000 வங்கி கணக்கில் தொடர்ச்சியாக வரவு வைக்கப்படும்."
+      }
+    ],
+    "official_url": "https://scd.tn.gov.in/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "uzhavar_pathukappu",
+    "name_en": "Uzhavar Pathukappu Thittam (Farmers & Agricultural Labourers Welfare)",
+    "name_ta": "முதலமைச்சரின் உழவர் பாதுகாப்புத் திட்டம்",
+    "category": "agriculture",
+    "level": "state",
+    "benefit_en": "Comprehensive social security: ₹1,000/mo old-age pension, up to ₹1,00,000 accident relief, educational aid for children, and marriage assistance.",
+    "benefit_ta": "விவசாயிகள் மற்றும் விவசாயக் கூலித் தொழிலாளர்களுக்கு விபத்து நிவாரணம் ₹1 லட்சம், குழந்தைகள் கல்வி உதவித்தொகை, மற்றும் முதியோர் ஓய்வூதியம்.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "gender": "any",
+      "occupations": ["farmer", "worker"],
+      "max_land_acres": 2.5,
+      "notes_en": "Marginal farmers owning up to 2.5 acres wetland (or 5 acres dryland) or landless agricultural laborers cultivating land. (TODO: verify from official site)",
+      "notes_ta": "2.5 ஏக்கருக்கு உட்பட்ட நன்செய் நிலமுடைய குறு விவசாயிகள் அல்லது விவசாய கூலித் தொழிலாளர்கள். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "land_or_labour_proof", "name_en": "Patta / Chitta or VAO Certificate of Agricultural Labour", "name_ta": "பட்டா நகல் அல்லது கிராம நிர்வாக அலுவலர் விவசாய கூலி சான்று", "required": true },
+      { "id": "ration_card", "name_en": "Ration Card", "name_ta": "குடும்ப அட்டை", "required": true },
+      { "id": "bank_passbook", "name_en": "Bank Account Passbook", "name_ta": "வங்கி கணக்கு புத்தகம்", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Registration with Special Tahsildar (SSS)",
+        "title_ta": "சமூகப் பாதுகாப்புத் திட்ட தனி வட்டாட்சியரிடம் பதிவு",
+        "desc_en": "Apply through your local Village Administrative Officer (VAO) or Taluk Office Social Security Scheme desk.",
+        "desc_ta": "கிராம நிர்வாக அலுவலர் (VAO) மூலமாகவோ தாலுகா அலுவலகத்திலோ விண்ணப்பிக்கவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Uzhavar Card Issuance",
+        "title_ta": "உழவர் பாதுகாப்பு அட்டை பெறுதல்",
+        "desc_en": "Revenue department verifies agricultural occupation and issues the official Uzhavar Pathukappu card.",
+        "desc_ta": "வருவாய்த்துறை சரிபார்த்து உழவர் பாதுகாப்பு அடையாள அட்டையை வழங்கும்."
+      },
+      {
+        "step": 3,
+        "title_en": "Avail Benefits as needed",
+        "title_ta": "தேவைப்படும் போது பயன்களைப் பெறுதல்",
+        "desc_en": "Submit claim applications for child education, marriage, funeral expenses, or pension directly at the Taluk office.",
+        "desc_ta": "கல்வி, திருமணம், இயற்கை மரணம் அல்லது ஓய்வூதியத்திற்கு தாலுகா அலுவலகத்தில் எளிதாக மனு செய்யலாம்."
+      }
+    ],
+    "official_url": "https://www.tn.gov.in/scheme/data_view/6857",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "free_laptop_scheme",
+    "name_en": "Tamil Nadu Free Laptop Scheme for Students",
+    "name_ta": "தமிழக அரசின் விலையில்லா மடிக்கணினி திட்டம்",
+    "category": "education",
+    "level": "state",
+    "benefit_en": "Free branded laptop computer loaded with educational software to empower students for digital learning and careers.",
+    "benefit_ta": "மாணவர்களின் டிஜிட்டல் கல்வி மற்றும் தொழில்நுட்ப திறன்களை மேம்படுத்த விலையில்லா மடிக்கணினி.",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 24,
+      "gender": "any",
+      "occupations": ["student"],
+      "is_student": true,
+      "notes_en": "Students studying Class 11/12 or undergraduate arts, science, engineering, or polytechnic in Tamil Nadu Government or Aided institutions. (TODO: verify from official site)",
+      "notes_ta": "அரசு மற்றும் அரசு உதவிபெறும் பள்ளிகள் / கல்லூரிகளில் 11, 12 ஆம் வகுப்பு அல்லது பட்டப்படிப்பு பயிலும் மாணவர்கள். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "school_college_id", "name_en": "School / College Bonafide Certificate & ID Card", "name_ta": "பள்ளி / கல்லூரி பயிலும் சான்றிதழ் மற்றும் அடையாள அட்டை", "required": true },
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "ration_card", "name_en": "Ration Card", "name_ta": "குடும்ப அட்டை", "required": false }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Institutional Enrolment via School / College",
+        "title_ta": "பள்ளி / கல்லூரி மூலமாக நேரடி பட்டியல் தயாரிப்பு",
+        "desc_en": "Headmaster or College Principal compiles list of enrolled students via the state education portal.",
+        "desc_ta": "பள்ளி தலைமை ஆசிரியர் அல்லது கல்லூரி முதல்வர் கல்வித்துறை போர்ட்டலில் பயிலும் மாணவர் பட்டியலை பதிவேற்றுவார்."
+      },
+      {
+        "step": 2,
+        "title_en": "ELCOT Supply Allocation",
+        "title_ta": "எல்காட் (ELCOT) மூலமாக மடிக்கணினி ஒதுக்கீடு",
+        "desc_en": "Laptops allocated and delivered by Electronics Corporation of Tamil Nadu (ELCOT) directly to the campus.",
+        "desc_ta": "எல்காட் நிறுவனம் மூலம் சரிபார்க்கப்பட்டு கல்வி நிறுவனங்களுக்கு நேரடியாக மடிக்கணினிகள் அனுப்பப்படும்."
+      },
+      {
+        "step": 3,
+        "title_en": "Distribution in School / College Campus",
+        "title_ta": "பள்ளி / கல்லூரியில் மாணவர்களுக்கு நேரடியாக வழங்குதல்",
+        "desc_en": "Distributed free of cost with warranty and serial number recorded against student Aadhaar/EMIS ID.",
+        "desc_ta": "பள்ளி / கல்லூரியிலேயே சிறப்பு நிகழ்வில் வாரண்டியுடன் மாணவர்களுக்கு இலவசமாக வழங்கப்படும்."
+      }
+    ],
+    "official_url": "https://elcot.in/",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  },
+  {
+    "id": "moovalur_marriage_assistance",
+    "name_en": "Moovalur Ramamirtham Ammiyar Marriage Assistance Scheme",
+    "name_ta": "மூவலூர் ராமாமிர்தம் அம்மையார் நினைவு திருமண நிதி உதவித் திட்டம்",
+    "category": "financial",
+    "level": "state",
+    "benefit_en": "Financial aid of ₹25,000 (10th passed) or ₹50,000 (degree/diploma holder) plus 1 Sovereign (8g) 22ct Gold Coin for Thirumangalyam for brides from poor families.",
+    "benefit_ta": "ஏழை மணப்பெண்களுக்கு ₹25,000 முதல் ₹50,000 வரை நிதி உதவி மற்றும் திருமாங்கல்யத்திற்கு 1 சவரன் (8 கிராம்) தங்கம்.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 35,
+      "gender": "female",
+      "occupations": ["farmer", "student", "worker", "homemaker", "other"],
+      "max_income": 72000,
+      "notes_en": "Bride must have completed 18 years of age. Bridegroom minimum 21 years. Family annual income not exceeding ₹72,000. (TODO: verify from official site)",
+      "notes_ta": "மணப்பெண்ணிற்கு 18 வயது பூர்த்தியாகியிருக்க வேண்டும். குடும்ப ஆண்டு வருமானம் ₹72,000-க்குள் இருக்க வேண்டும். (TODO: அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்)"
+    },
+    "documents": [
+      { "id": "marriage_invitation", "name_en": "Marriage Invitation Card", "name_ta": "திருமண அழைப்பிதழ்", "required": true },
+      { "id": "age_proof", "name_en": "Age Proof (10th Marksheet / Birth Certificate / TC)", "name_ta": "வயதுச் சான்று (10ம் வகுப்பு மதிப்பெண் சான்றிதழ் / பிறப்புச் சான்று)", "required": true },
+      { "id": "income_cert", "name_en": "Income Certificate under ₹72,000 from Tahsildar", "name_ta": "வட்டாட்சியர் வருமானச் சான்றிதழ் (ஆண்டு வருமானம் ₹72,000-க்குள்)", "required": true },
+      { "id": "aadhaar", "name_en": "Aadhaar Card", "name_ta": "ஆதார் அட்டை", "required": true },
+      { "id": "ration_card", "name_en": "Ration Card", "name_ta": "குடும்ப அட்டை", "required": true },
+      { "id": "bank_passbook", "name_en": "Bride's Bank Account Passbook", "name_ta": "மணப்பெண்ணின் வங்கி கணக்கு புத்தகம்", "required": true }
+    ],
+    "apply_steps": [
+      {
+        "step": 1,
+        "title_en": "Apply at e-Sevai / Block Development Office (BDO)",
+        "title_ta": "இ-சேவை மையம் அல்லது வட்டார வளர்ச்சி அலுவலகத்தில் விண்ணப்பம்",
+        "desc_en": "Apply through e-Sevai or Block Social Welfare Officer at least 40 days before the wedding date.",
+        "desc_ta": "திருமணத்திற்கு குறைந்தது 40 நாட்களுக்கு முன்பாக இ-சேவை மையம் அல்லது சமூக நல அலுவலகத்தில் விண்ணப்பிக்கவும்."
+      },
+      {
+        "step": 2,
+        "title_en": "Social Welfare Extension Officer Enquiry",
+        "title_ta": "சமூக நல விரிவாக்க அலுவலர் நேரடி கள ஆய்வு",
+        "desc_en": "Officer visits applicant home to verify age, income, and educational certificates.",
+        "desc_ta": "சமூக நல அலுவலர் வீட்டிற்கு வந்து வயது, கல்வி, வருமானச் சான்றிதழ்களை நேரடி விசாரணை செய்வார்."
+      },
+      {
+        "step": 3,
+        "title_en": "Cheque / DBT and Gold Coin Distribution",
+        "title_ta": "வங்கி கணக்கில் நிதி உதவி மற்றும் தங்க நாணயம் வழங்குதல்",
+        "desc_en": "Cash assistance directly credited to bride's bank account, and 8g gold coin handed over before/at marriage.",
+        "desc_ta": "நிதி உதவி மணப்பெண் வங்கிக் கணக்கில் வரவு வைக்கப்பட்டு 8 கிராம் தங்க நாணயம் வழங்கப்படும்."
+      }
+    ],
+    "official_url": "https://www.tn.gov.in/scheme/data_view/6849",
+    "last_verified": "2024-11-01 (TODO: verify from official site)",
+    "verification_status": "TODO: verify from official site"
+  }
+]
