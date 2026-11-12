@@ -106,3 +106,4 @@ export interface ChatMessage {
   quickOptions?: { label_en: string; label_ta: string; value: string }[];
   timestamp: number;
 }
+

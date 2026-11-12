@@ -170,3 +170,4 @@ vercel --prod
 ## ⚠️ Guidance & Legal Disclaimer
 > **தகவல்கள் பொது வழிகாட்டலுக்கு மட்டுமே. / Information is for guidance only.**
 > Thunai AI is an independent civic technology initiative and is **not** an official government agency. Scheme eligibility criteria, income ceilings, and benefits are subject to government notifications. Users must verify details and submit official applications at their local Village Administrative Officer (VAO), e-Sevai / CSC centre, or Taluk office.
+

@@ -33,3 +33,4 @@ export const DisclaimerBanner: React.FC<DisclaimerBannerProps> = ({ language }) 
     </div>
   );
 };
+

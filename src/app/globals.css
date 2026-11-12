@@ -39,3 +39,4 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .animate-pulse-mic {
   animation: pulse-ring 1.8s infinite cubic-bezier(0.45, 0, 0.55, 1);
 }
+

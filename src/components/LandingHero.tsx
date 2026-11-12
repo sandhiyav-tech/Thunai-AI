@@ -164,3 +164,4 @@ export const LandingHero: React.FC<LandingHeroProps> = ({ language, onStart }) =
     </div>
   );
 };
+

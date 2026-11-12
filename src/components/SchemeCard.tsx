@@ -271,3 +271,4 @@ export const SchemeCard: React.FC<SchemeCardProps> = ({ match, language }) => {
     </div>
   );
 };
+

@@ -242,3 +242,4 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
     </div>
   );
 };
+

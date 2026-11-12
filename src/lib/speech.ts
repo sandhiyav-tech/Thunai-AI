@@ -163,3 +163,4 @@ export function speakText(
     window.speechSynthesis.cancel();
   };
 }
+
